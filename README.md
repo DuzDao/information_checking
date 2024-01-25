@@ -1,4 +1,4 @@
-### In this repo, we publish the source code (ranked top 8 in the UIT Data Science Challenge 2023) for the problem of information checking (fact checking), specifically for two tasks: claim verification and evidence retrieval.
+## In this repo, we publish the source code (ranked top 8 in the UIT Data Science Challenge 2023) for the problem of information checking (fact checking), specifically for two tasks: claim verification and evidence retrieval.
 
 ### Performance we've reached
 
@@ -8,3 +8,8 @@
 # About The Contest
 More information about the contest can be found on [Codalab](https://codalab.lisn.upsaclay.fr/competitions/15497).
 
+# Members
+Our team:
+    - [Dao Hoang Dung](https://github.com/dung-dao-hoang)  
+    - [Huynh Thi Kim Ngan](https://github.com/htkngan)
+    - [Nguyen Huu Tuan Minh](https://github.com/chains229)
