@@ -9,7 +9,8 @@
 More information about the contest can be found on [Codalab](https://codalab.lisn.upsaclay.fr/competitions/15497).
 
 # Members
-Our team:
-    - [Dao Hoang Dung](https://github.com/dung-dao-hoang)  
-    - [Huynh Thi Kim Ngan](https://github.com/htkngan)
-    - [Nguyen Huu Tuan Minh](https://github.com/chains229)
+Our team:<br>
+    - [Dao Hoang Dung](https://github.com/dung-dao-hoang)<br>
+    - [Huynh Thi Kim Ngan](https://github.com/htkngan)<br>
+    - [Nguyen Huu Tuan Minh](https://github.com/chains229)<br>
+    
