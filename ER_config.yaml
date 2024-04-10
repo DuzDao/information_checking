@@ -1,0 +1,33 @@
+result_path: /kaggle/working/public_result.csv
+
+checkpoint: /checkpoint/sent_trans_evi_idx_100_0.0001_0.2.pth
+
+data_path:
+  train: ...
+  eval: ...
+  test: /kaggle/working/dsc_test.csv
+
+embedding:
+  embedding_type: 1 #1 if using sentence-transformers
+  pretrained_name: vinai/phobert-base
+  embedding_dim: 768
+
+tokenizer:
+  max_length: 200
+  padding: max_length
+  truncation: True
+  add_special_tokens: True
+  return_attention_mask: True
+  return_tensors: pt
+
+train:
+  learning_rate: 0.001
+  num_epochs: 20
+  batch_size: 32
+
+predict:
+  batch_size: 32
+
+model:
+  pretrained_name: vinai/phobert-base
+  dropout: 0.2
