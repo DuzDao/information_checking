@@ -1,0 +1,24 @@
+data_path:
+  train: CV/cv_data/train.csv 
+  eval: CV/cv_data/eval.csv
+
+embedding:
+  pretrained_name: vinai/phobert-base
+  embedding_dim: 768
+
+tokenizer:
+  max_length: 200
+  padding: max_length
+  truncation: True
+  add_special_tokens: True
+  return_attention_mask: True
+  return_tensors: pt
+
+train:
+  learning_rate: 0.001
+  num_epochs: 20
+  batch_size: 32
+
+model:
+  pretrained_name: vinai/phobert-base
+  dropout: 0.2
